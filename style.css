@@ -1,0 +1,204 @@
+body {
+  height: 50000px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style-type: none;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* #main {
+  text-align: center;
+}
+.writeBtn{
+  padding: 20px 10px;
+}
+#addinp {
+  background-color: rgb(103, 138, 138);
+  padding: 7px;
+}
+
+#btn {
+  padding: 10px;
+  background-color: aqua;
+  border: none;
+}
+
+#btn i {
+      color: chocolate;
+}
+#main li .btn-write{
+margin-left: 35px;
+} */
+
+/* =============================================== */
+/* son yazdigim */
+/* #main{
+display: flex;
+flex-direction: column;
+justify-content: space-around; 
+margin-left: 200px;
+}
+.add-list{
+  width: 300px;
+  background-color: darkgray;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 10px;
+}
+#inp{
+  display: inline-block;
+  border: none;
+  background-color: darkgray;
+  color: red;
+  font-size: 1em;
+  font-weight: 500;
+  border-radius: 10px;
+  outline: none;
+}
+.add-icon{
+  font-size: 2.5em;
+  color: forestgreen;
+}
+
+.adds{
+  width: 300px;
+  background-color: cadetblue;
+  border-radius: 8px;
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+  margin-top: 10px;
+}
+#inps{
+  padding: 7px 0;
+  border: none;
+  outline: none;
+  background-color: cadetblue;
+}
+.change-btn{
+  font-size: 1.7em;
+  border-radius: 5px;
+  color: gold;
+  cursor: pointer;
+}
+.delete-btn{
+  font-size: 1.7em;
+  border-radius: 5px;
+  color: red;
+  cursor: pointer;
+}
+#change-inp{
+  display: block;
+  margin-top: 10px;
+  width: 300px;
+  padding: 10px;
+} */
+
+/* scroll event */
+#top {
+  display: block;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  position: fixed;
+  bottom: 70;
+  right: 50;
+  background-color: brown;
+  text-align: center;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.5s ease;
+}
+#top:hover {
+  background-color: red;
+}
+#top .up-icon {
+  display: inline-block;
+  line-height: 40px;
+  color: white;
+  font-size: 1.5em;
+}
+
+#top.show {
+  opacity: 1;
+  visibility: visible;
+  z-index: 9;
+}
+/* =================    API START (fetch ile)  ==================== */
+
+.apiDiv {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.cart {
+  width: 21%;
+  height: 200px;
+  margin-top: 80px;
+  text-align: center;
+}
+.cart img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+.cart p {
+  margin-top: 10px;
+}
+.cart p:hover {
+  color: red;
+  cursor: pointer;
+}
+#btn {
+  margin: 20px auto;
+  display: block;
+  border-radius: 10px;
+  padding: 10px 100px;
+  cursor: pointer;
+  background-color: gold;
+  color: black;
+}
+#btn:hover {
+  background-color: red;
+  color: white;
+}
+/* ========================= AXIOS  ===================================== */
+.inp{
+padding: 10px;
+}
+.btn{
+  padding: 10px 25px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.btn:hover{
+  background-color: blue;
+  color: white;
+}
+
+table{
+  width: 500px;
+  border: 1px solid black;
+}
+ th,tr,td {
+  border:1px solid black;
+  padding: 10px 0;
+  text-align: center;
+}
+.table{
+  margin-top: 20px;
+  margin-left: 50px;
+}
+
+
+
+
